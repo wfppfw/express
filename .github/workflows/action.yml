@@ -23,10 +23,8 @@ jobs:
         with:
           node-version: '15'
       - name: npm install and build
-      # #执行执行某个shell命令或脚本
+        # #执行执行某个shell命令或脚本
         run: |
           npm install
-        run: |
           npm start
           npm build
-
